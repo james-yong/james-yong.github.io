@@ -1,3 +1,4 @@
 name: James Yong, Software Engineer
 markdown: kramdown
 theme: jekyll-theme-modernist
+permalink: /blog/:year/:month/:day/:title
