@@ -11,5 +11,5 @@ You can view the source code at [GitHub](https://github.com/james-yong/singapore
 
 ### Demo
 {% raw %}
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="750" height="900" src="/demo/singapore-foreign-worker-quota-levy.html"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="800" height="800" src="/demo/singapore-foreign-worker-quota-levy.html"></iframe>
 {% endraw %}
