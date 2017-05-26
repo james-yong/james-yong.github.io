@@ -4,7 +4,7 @@ title: James Yong's Blog
 ---
 # Privacy Policy
   
-  I use Google Analytics on james-yong.github.io
+  I use Google Analytics here on james-yong.github.io
 
 ### What does Google Analytics record?
 
