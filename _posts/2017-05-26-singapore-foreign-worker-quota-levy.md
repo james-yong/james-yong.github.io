@@ -5,7 +5,7 @@ date: 2017-05-26
 ---
 
 Well. Finally got around to putting this quota and levy calculator online. 
-Neat thing about it - powered by [ReactJS](https://facebook.github.io/react/) and [Redux](http://redux.js.org/). 
+Neat thing about it - powered by [ReactJS](https://facebook.github.io/react/){:target="_blank"} and [Redux](http://redux.js.org/){:target="_blank"}. 
 
-You can view the source code at [GitHub](https://github.com/james-yong/singapore-foreign-worker-quota-levy).
+You can view the source code at [GitHub](https://github.com/james-yong/singapore-foreign-worker-quota-levy){:target="_blank"}.
 See demo at [here](/demo/singapore-foreign-worker-quota-levy.html){:target="_blank"}.
