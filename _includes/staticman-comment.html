@@ -21,10 +21,7 @@
       <div class="panel panel-default">
           <div class="panel-heading"><h4>Leave a Comment</h4><br/><p>Your email address will not be published. Required fields are marked <span class="required">*</span></p></div>
           <div class="panel-body">
-
-              <h3>Leave a Comment</h3>
-
-              <form id="comment-form" class="post__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.github.owner_name }}/{{ site.github.repository_name }}/{{ site.staticman.branch }}/comments">
+              <form id="comment-form" method="post" action="https://api.staticman.net/v2/entry/{{ site.github.owner_name }}/{{ site.github.repository_name }}/{{ site.staticman.branch }}/comments">
                   <div class="form-group">
                       <label for="comment-form-message">Comment<small class="required">*</small> <small>(<a href="https://daringfireball.net/projects/markdown/">Markdown</a> is supported)</small></label>
                       <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
