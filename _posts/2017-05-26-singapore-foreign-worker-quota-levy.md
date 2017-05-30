@@ -10,7 +10,11 @@ Neat thing about it - powered by [ReactJS](https://facebook.github.io/react/){:t
 
 You can view the source code at [GitHub](https://github.com/james-yong/singapore-foreign-worker-quota-levy){:target="_blank"}.
 
-### Demo
 {% raw %}
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="800" height="800" src="/demo/singapore-foreign-worker-quota-levy.html"></iframe>
+<div class="panel panel-default">
+  <div class="panel-heading"><h3>Demo</h3></div>
+  <div class="panel-body">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="100%" src="/demo/singapore-foreign-worker-quota-levy.html"></iframe>
+  </div>
+</div>
 {% endraw %}
