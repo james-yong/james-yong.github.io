@@ -18,35 +18,41 @@
         <!-- End static comments -->
       {% endif %}
 
-      <!-- Start new comment form -->
-      <h3>Leave a Comment</h3>
-      <p>Your email address will not be published. Required fields are marked <span class="required">*</span></p>
-      <form id="comment-form" class="post__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.github.owner_name }}/{{ site.github.repository_name }}/{{ site.staticman.branch }}/comments">
-        <div class="form-group">
-          <label for="comment-form-message">Comment<small class="required">*</small> <small>(<a href="https://daringfireball.net/projects/markdown/">Markdown</a> is supported)</small></label>
-          <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
-        </div>
-        <div class="form-group">
-          <label for="comment-form-name">Name<small class="required">*</small></label>
-          <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
-        </div>
-        <div class="form-group">
-          <label for="comment-form-email">Email address<small class="required">*</small></label>
-          <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
-        </div>
-        <div class="form-group">
-          <label for="comment-form-url">Website <small>(optional)</small></label>
-          <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
-        </div>
-        <div class="hidden">
-          <input type="hidden" name="options[slug]" value="{{ page.slug }}">
-          <input name="options[redirect]" type="hidden" value="{{ site.github.url }}">
-          <input type="hidden" name="fields[hidden]"/>
-        </div>
-        <div class="form-group">
-          <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn-primary">Submit Comment</button>
-        </div>
-      </form>
-      <!-- End new comment form -->
+      <div class="panel panel-default">
+          <div class="panel-heading"><h4>Leave a Comment</h4><br/><p>Your email address will not be published. Required fields are marked <span class="required">*</span></p></div>
+          <div class="panel-body">
+
+              <h3>Leave a Comment</h3>
+
+              <form id="comment-form" class="post__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.github.owner_name }}/{{ site.github.repository_name }}/{{ site.staticman.branch }}/comments">
+                  <div class="form-group">
+                      <label for="comment-form-message">Comment<small class="required">*</small> <small>(<a href="https://daringfireball.net/projects/markdown/">Markdown</a> is supported)</small></label>
+                      <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+                  </div>
+                  <div class="form-group">
+                      <label for="comment-form-name">Name<small class="required">*</small></label>
+                      <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+                  </div>
+                  <div class="form-group">
+                      <label for="comment-form-email">Email address<small class="required">*</small></label>
+                      <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+                  </div>
+                  <div class="form-group">
+                      <label for="comment-form-url">Website <small>(optional)</small></label>
+                      <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+                  </div>
+                  <div class="hidden">
+                      <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+                      <input name="options[redirect]" type="hidden" value="{{ site.github.url }}">
+                      <input type="hidden" name="fields[hidden]"/>
+                  </div>
+                  <div class="form-group">
+                      <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn-primary">Submit Comment</button>
+                  </div>
+              </form>
+
+          </div>
+      </div>
+
     {% endif %}
 {% endif %}
