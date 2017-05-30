@@ -1,5 +1,4 @@
 {% if page.comments == true %}
-  <section class="post__comments">
     {% if site.staticman.branch %}
       {% if site.data.comments[page.slug] %}
         <!-- Start static comments -->
@@ -50,5 +49,4 @@
       </form>
       <!-- End new comment form -->
     {% endif %}
-  </section>
 {% endif %}
