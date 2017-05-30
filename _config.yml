@@ -5,7 +5,6 @@ permalink: /blog/:year/:month/:day/:title
 show_downloads: false
 google_analytics: UA-99990642-1
 title: James's Open Source Projects
-repository: james-yong.github.io
 
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
