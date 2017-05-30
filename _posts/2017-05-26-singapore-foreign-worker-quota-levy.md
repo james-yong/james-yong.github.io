@@ -2,6 +2,7 @@
 layout: post
 title: “Singapore Foreign Worker Quota Levy Calculator”
 date: 2017-05-26
+comments: true
 ---
 
 Well. Finally got around to putting this quota and levy calculator online. 
